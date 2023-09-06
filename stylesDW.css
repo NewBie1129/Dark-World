@@ -1,0 +1,107 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a dark background color to the body */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Style the header with a spooky background image */
+header {
+    background: url('horror-background.jpg') center/cover;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the h1 in the header with a blood-like text color */
+header h1 {
+    font-size: 36px;
+    color: #8B0000; /* Dark red color for a blood-like effect */
+}
+
+/* Style the navigation links */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 5px;
+    display: block;
+}
+
+/* Style the main content area with a dark background */
+main {
+    background-color: #111;
+    padding: 20px;
+}
+
+/* Style the article with a dark background and eerie border */
+article {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style article headings with a blood-like color */
+article h1, article h2 {
+    color: #8B0000;
+}
+
+/* Style article paragraphs with a ghostly white text color */
+article p {
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Style the "Read more" links with a spooky color */
+nav a[target="_blank"] {
+    color: #ff6600; /* Dark orange color for a spooky effect */
+    text-decoration: underline;
+}
+
+/* Center align text */
+center {
+    text-align: center;
+}
+
+/* Style the admin section with a dark background and ghostly border */
+fieldset {
+    background-color: #111;
+    border: 2px solid #666;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style admin section heading with a blood-like color */
+fieldset legend {
+    color: #8B0000;
+    font-weight: bold;
+}
+
+/* Style admin section text with a ghostly white text color */
+fieldset p {
+    color: #fff;
+}
+
+/* Style the image with maximum width and a spooky margin */
+fieldset img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Style the social media links with a spooky color */
+fieldset a {
+    color: #ff6600; /* Dark orange color for a spooky effect */
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
